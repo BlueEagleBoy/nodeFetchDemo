@@ -1,0 +1,19 @@
+{
+  "name": "fetchbjhvideo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=fetch* node fetch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^3.1.0",
+    "superagent": "^3.8.2",
+    "url": "^0.11.0"
+  }
+}
